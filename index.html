@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Doutores da Web</title>
+
+    <!--Importação do CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2>11 1234-1234 11 1234-1234</h2>
+    </div>
+
+    <div class="container-main">
+      <div class="nav">
+        <img src="img/logo.png" alt="logo-ideal" />
+
+        <div class="menu-item">
+          <a href="#home" onclick="toggleDropdown('submenu-home')">HOME</a>
+          <div id="submenu-home" class="submenu">
+            <a href="#home1">Submenu 1</a>
+            <a href="#home2">Submenu 1</a>
+            <a href="#home2">Submenu 1</a>
+            <a href="#home2">Submenu 1</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <a href="#empresa" onclick="toggleDropdown('submenu-empresa')"
+            >EMPRESA</a
+          >
+          <div id="submenu-empresa" class="submenu">
+            <a href="#home1">Submenu 2</a>
+            <a href="#home2">Submenu 2</a>
+            <a href="#home2">Submenu 2</a>
+            <a href="#home2">Submenu 2</a>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <a href="#clientes" onclick="toggleDropdown('submenu-clientes')"
+            >CLIENTES</a
+          >
+          <div id="submenu-clientes" class="submenu">
+            <a href="#home1">Submenu 3</a>
+            <a href="#home2">Submenu 3</a>
+            <a href="#home2">Submenu 3</a>
+            <a href="#home2">Submenu 3</a>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <a href="#contato" onclick="toggleDropdown('submenu-contato')"
+            >CONTATO</a
+          >
+          <div id="submenu-contato" class="submenu">
+            <a href="#home1">Submenu 4</a>
+            <a href="#home2">Submenu 4</a>
+            <a href="#home2">Submenu 4</a>
+            <a href="#home2">Submenu 4</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="full-width-background">
+        <div class="content-container">
+          <div class="slider-container">
+            <div class="slides">
+              <img src="img/nemo.jpg" alt="Nemo imagem" class="slide" />
+              <img src="img/up.jpg" alt="Up imagem" class="slide" />
+              <img
+                src="img/toystory.jpg"
+                alt="Toy Story imagem"
+                class="slide"
+              />
+            </div>
+            <button class="btn-prev">&#10094;</button>
+            <button class="btn-next">&#10095;</button>
+            <div class="pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="content">
+          <h2>TESTE DE HTML E CSS</h2>
+          <p>Questões de avaliação:</p>
+          <ul>
+            <li>Organização do código (quanto mais limpo melhor);</li>
+            <li>Nível de detalhismo (quanto mais detalhado melhor);</li>
+            <li>
+              Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);
+            </li>
+          </ul>
+          <p>Ao finalizar o teste, envie zipado o código para o e-mail</p>
+          <p class="text-right">com o tempo gasto e seu cv anexado.</p>
+          <p>Obrigado e boa sorte!</p>
+        </div>
+
+        <div class="content-image">
+          <img src="img/walle.jpg" alt="walle imagem" />
+        </div>
+      </div>
+
+      <div class="side-content">
+        <h2>BOXES DE DESTAQUE</h2>
+        <div class="boxes">
+          <div class="box">
+            <img src="img/up.jpg" alt="UP" />
+            <p>Texto com imagem do <a href="#">UP</a></p>
+          </div>
+          <div class="box">
+            <img src="img/toystory.jpg" alt="Toy Story" />
+            <p>Texto com imagem do <a href="#">Toy Story</a></p>
+          </div>
+          <div class="box">
+            <img src="img/walle.jpg" alt="WALL-E" />
+            <p>Texto com imagem do <a href="#">walle</a></p>
+          </div>
+          <div class="box">
+            <img src="img/nemo.jpg" alt="Nemo" />
+            <p>Texto com imagem do <a href="#">Nemo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-text">
+        <h3>HOME</h3>
+        <h3>EMPRESA</h3>
+        <h3>CLIENTES</h3>
+        <h3>CONTATO</h3>
+      </div>
+
+      <h1>RODAPE</h1>
+    </div>
+
+    <!--Importação do java script -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
